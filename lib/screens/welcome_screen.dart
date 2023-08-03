@@ -26,6 +26,8 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
       setState(() {});
     },);
   }
+
+
   @override
   void dispose(){
     controller.dispose();
